@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieren</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/"><img src="images/Schermafbeelding 2023-12-16 201941.png" width="125px">
+                </a> </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/categorieen">Alle categorieën</a></li>
+                    <li><a href="/decoratie">decoratie</a></li>
+                    <li><a href="/meubels">meubels</a></li>
+                    <li><a href="/dieren">dieren</a></li>
+                    <li><a href="/account">Account</a></li>
+                </ul>
+            </nav>
+            <a href="/favorieten"><img src="images/pngwing.com (91).png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+
+    </div>
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>Alle dieren DIY's</h2>
+            <select>
+                <option>Default sorting</option>
+                <option>moeilijkheid</option>
+                <option>kosten < </option>
+                <option>duurtijd</option>
+            </select>
+
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+               <a href="/DIY-details"> <img src="images/egelhuis.jpg">
+                <h4>Egelhuis</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/konijnenhok.jpg">
+                <h4>Konijnenhok</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/vleermuiskast.jpg">
+                <h4>Vleermuiskast</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/kattenbak.jpg">
+                <h4>Kattenbak</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/kattenhuis.jpg">
+                <h4>Kattenhuis</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/krabpaal.jpg">
+                <h4>Krabpaal</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/voederhuisje.jpg">
+                <h4>Voederhuisje</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/voerbak.jpg">
+                <h4>Voederbak</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/vogelhuisje.jpg">
+                <h4>vogelhuisje</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            <div class="col-4">
+                <img src="images/egelhuisje.jpg">
+                <h4>Egelhuisje</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><u>Bekijken</u></p>
+            </div>
+            
+            
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>download app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of upcycling Accessible to the Many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2023 - DIY Fraai industries</p>
+        </div>
+    </div>
+
+
+    <!---------Js for toggle menu--------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
